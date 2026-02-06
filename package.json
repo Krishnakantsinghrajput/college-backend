@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "sample description ",
   "main": "second.js",
-  "type":"module",
+  "type":"commonjs",
   "scripts": {
     "start":" node start.js",
     "dev":"nodemon file.js",

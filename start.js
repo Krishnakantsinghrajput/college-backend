@@ -25,6 +25,25 @@
 // console.log("div output :"+output3);
                            
 
-import {add} from "./newfolder/file1.js";
-const output=add(9,9);
-console.log(output);
+// import {add} from "./newfolder/file1.js";
+// const output=add(9,9);
+// console.log(output);
+
+
+
+import fs from "fs";
+
+console.log("start");
+fs.readFile("filetxt","utf-8",(err,data)=>{
+   if(err){
+      console.log("err",err);
+   }
+   console.log("err",err);
+});
+
+fs.readFile("file.txt","New Content");
+ 
+
+console.log("ended");
+
+
